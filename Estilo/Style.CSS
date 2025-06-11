@@ -7,8 +7,27 @@ body {
 
 header {
   background-color: #2a1d14;
-  display: flex;
-  justify-content: space-between;
+  display: flex; /* el flex permite que los elementos va a hacer que los elentos hijos de alinien en una fila */
+  justify-content: space-between; /* el justify-content ahce que se distribuyan los hijos en el espacio disponible  (quedo mejor que left)*/
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 2rem; /*espacio en rem para que no se deforme en el cel */
+}
+ 
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #cfcfcf;
+  text-decoration: none;
+}
+
+.pata_de_pagina{
+
+  background-color: #2a1d14;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
 }
