@@ -24,6 +24,11 @@ nav a {
   text-decoration: none;
 }
 
+nav a.activo {
+  font-weight: bold;
+  color: #fff;
+}
+
 .pata_de_pagina{
 
   background-color: #2a1d14;
