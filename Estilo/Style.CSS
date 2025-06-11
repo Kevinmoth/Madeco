@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
   background-color: #1d150f;
@@ -5,14 +11,15 @@ body {
   line-height: 1.5;
 }
 
+/* Header */
 header {
   background-color: #2a1d14;
-  display: flex; /* el flex permite que los elementos va a hacer que los elentos hijos de alinien en una fila */
+  display: flex; 
   justify-content: space-between; /* el justify-content ahce que se distribuyan los hijos en el espacio disponible  (quedo mejor que left)*/
   align-items: center;
   padding: 1rem 2rem; /*espacio en rem para que no se deforme en el cel */
 }
- 
+
 nav ul {
   list-style: none;
   display: flex;
