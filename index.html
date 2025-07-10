@@ -4,58 +4,98 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Madeco</title>
-  <link rel="stylesheet" href="Estilo/Style.CSS">
+  <link rel="stylesheet" href="Estilo/StyleAndrea.css">
 </head>
 <body>
 
   <header>
     <div class="logo">
-      <img src="MadecoLogo.png" alt="Madeco" width="100px" height="140px">
+      <img src="Imagenes/logo.png" alt="Madeco" width="140px" height="70px">
     </div>
     <nav>
       <ul>
         <li><a href="index.html" class="activo">inicio</a></li>
-        <li><a href="Ventas/Productos/Index.html">ventas</a></li>
+
+        <li class="submenu">
+          <a href="Ventas/Productos/Index.html">ventas</a>
+          <ul class="submenu-items">
+            <li><a href="Ventas/Productos/Index.html">productos</a></li>
+            <li><a href="Ventas/Servicios/Index.html">servicios</a></li>
+          </ul>
+        </li>
+
         <li><a href="SobreNosotros/Index.html">sobre nosotros</a></li>
         <li><a href="Galeria/Index.html">galería</a></li>
-        <li><a href="Blog/Eventos/Index.html">blog</a></li>
+
+        <li class="submenu">
+          <a href="Blog/Eventos/Index.html">blog</a>
+          <ul class="submenu-items">
+            <li><a href="Blog/Eventos/Index.html">eventos</a></li>
+            <li><a href="Blog/Novedades/Index.html">novedades</a></li>
+          </ul>
+        </li>
+
         <li><a href="Contacto/Index.html">contacto</a></li>
       </ul>
     </nav>
+    
   </header>
 
   <section class="banner">
     <div class="texto-banner">
       <h1>Madeco</h1>
-      <p>Calidad y excelencia en maderas para tus proyectos</p>
+      <p>Calidad y excelencia en maderas para  cada uno de tus proyectos</p>
       <div class="botones-banner">
-        <button class="btn marron">Ver Catálogo</button>
-        <button class="btn blanco">Contactar</button>
-      </div>
+  <a href="Ventas/Productos/Index.html" class="btn marron" style="text-decoration: none;">Ver Catálogo</a>
+  <a href="Contacto/Index.html" class="btn blanco" style="text-decoration: none;">Contactar</a>
+</div>
+
     </div>
     <div class="imagen-banner">
-      <img src="Arboles.png" alt="Árboles" width="100px" height="100px">
+      <img src="imagenes/Arboles.png" alt="Árboles" width="500" >
     </div>
   </section>
 
+  <div class="maderas" >
+    <h3>Nuestras Maderas</h3>
+  </div>
 
+  <section class="bloques">
+  <article class="bloque bloque1">
+    <h4>Maderas Nobles</h4>
+    <p>Roble, nogal, cerezo y otras maderas de alta calidad para muebles exclusivos.</p>
+  </article>
+  
+  <article class="bloque bloque2">
+    <h4>Maderas Estructurales</h4>
+    <p>Pino, lapacho y otras maderas resistentes para construcción y estructuras.</p>
+  </article>
+  
+  <article class="bloque bloque3">
+    <h4>Maderas Exóticas</h4>
+    <p>Madera autoctonas de la zona misionera y maderas especiales para proyectos únicos y exclusivos.</p>
+  </article>
+</section>
 
-  <footer>
-    <div class="footer-grid">
-      <div>
-        <h3>Madeco</h3>
-        <p>Pata de página.</p>
-      </div>
-      <div>
-        <h3>Contacto</h3>
-        <p>📞 123123123<br>✉️ madeco@madeco.xd<br>📍 Calle Fulanitos, 123, quinitos</p>
-      </div>
-      <div>
-        <h3>Horario</h3>
-        <p>Lunes a Viernes: 9:00 - 9:30<br>Sábados: 10:00 - 10:00</p>
-      </div>
-    </div>
-    <p class="copyright">© 2025 Madeco. Todos los derechos almorzados.</p>
+<div class="maderas">
+  <h3>¿Por qué elegirnos?</h3>
+</div>
+
+<section class="razones">
+  <article class="razon razon1">
+    <h4>Sostenibilidad</h4>
+    <p>Todas nuestras maderas provienen de bosques gestionados de manera sostenible, con certificaciones que garantizan el respeto al medio ambiente.</p>
+  </article>
+  
+  <article class="razon razon2">
+    <h4>Calidad Premium</h4>
+    <p>Seleccionamos cuidadosamente cada pieza de madera para garantizar la máxima calidad en todos nuestros productos.</p>
+  </article>
+</section>
+  
+  <footer> 
+   <p> © 2025 Madeco. Todos los derechos almorzados |📞 123123123 | ✉️ madeco@madeco.xd </p>
+  📍 Calle Fulanitos, 123, quinitos
   </footer>
 
 </body>

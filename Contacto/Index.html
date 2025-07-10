@@ -1,27 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <link rel="stylesheet" href="../Estilo/Style.CSS">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacto - Madeco</title>
+  <link rel="stylesheet" href="../Estilo/StyleAndrea.css">
 </head>
 <body>
-    <header>
-     <nav>
+
+  <header>
+    <div class="logo">
+      <img src="../Imagenes/logo.png" alt="Madeco" width="140px" height="70px">
+    </div>
+    <nav>
       <ul>
-        <li><a href="../../index.html" class="activo">inicio</a></li>
-        <li><a href="../../Ventas/Productos/Index.html" class="activo">ventas</a></li>
-        <li><a href="../../SobreNosotros/Index.html" class="activo">sobre nosotros</a></li>
-        <li><a href="../../Galeria/Index.html" class="activo">galería</a></li>
-        <li><a href="../../Blog/Eventos/Index.html" class="activo">blog</a></li>
-        <li><a href="Contacto/Index.html" class="activo">contacto</a></li>
+        <li><a href="../index.html">inicio</a></li>
+
+        <li class="submenu">
+          <a href="../Ventas/Productos/Index.html">ventas</a>
+          <ul class="submenu-items">
+            <li><a href="../Ventas/Productos/Index.html">productos</a></li>
+            <li><a href="../Ventas/Servicios/Index.html">servicios</a></li>
+          </ul>
+        </li>
+
+        <li><a href="../SobreNosotros/Index.html">sobre nosotros</a></li>
+        <li><a href="../Galeria/Index.html">galería</a></li>
+
+        <li class="submenu">
+          <a href="../Blog/Eventos/Index.html">blog</a>
+          <ul class="submenu-items">
+            <li><a href="../Blog/Eventos/Index.html">eventos</a></li>
+            <li><a href="../Blog/Novedades/Index.html">novedades</a></li>
+          </ul>
+        </li>
+
+        <li><a href="Index.html" class="activo">contacto</a></li>
       </ul>
     </nav>
-    </header>
+  </header>
 
-    <footer>
-       <p>Pata de página</p>
-    </footer>
+  <section class="contacto-container">
+    <h1>Contacto</h1>
+    <form class="formulario-contacto" action="#" method="POST">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo electrónico" required>
+      <input type="text" name="asunto" placeholder="Asunto" required>
+      <textarea name="mensaje" placeholder="Escribe tu mensaje..." required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+
+    
+  </section>
+
+  <footer>
+    <p>© 2025 Madeco. Todos los derechos almorzados |📞 123123123 | ✉️ madeco@madeco.xd</p>
+    📍 Calle Fulanitos, 123, quinitos
+  </footer>
+
 </body>
 </html>

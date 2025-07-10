@@ -1,27 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <link rel="stylesheet" href="../Estilo/Style.CSS">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Nosotros</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre Nosotros - Madeco</title>
+  <link rel="stylesheet" href="../Estilo/StyleAndrea.css">
+  
 </head>
 <body>
-    <header>
-          <nav>
+
+  <header>
+    <div class="logo">
+      <img src="../Imagenes/logo.png" alt="Madeco" width="140px" height="70px">
+    </div>
+    <nav>
       <ul>
-        <li><a href="../index.html" class="activo">inicio</a></li>
-        <li><a href="../Ventas/Productos/Index.html" class="activo">ventas</a></li>
+        <li><a href="../index.html">inicio</a></li>
+
+        <li class="submenu">
+          <a href="../Ventas/Productos/Index.html">ventas</a>
+          <ul class="submenu-items">
+            <li><a href="../Ventas/Productos/Index.html">productos</a></li>
+            <li><a href="../Ventas/Servicios/Index.html">servicios</a></li>
+          </ul>
+        </li>
+
         <li><a href="Index.html" class="activo">sobre nosotros</a></li>
-        <li><a href="../Galeria/Index.html" class="activo">galería</a></li>
-        <li><a href="../Blog/Eventos/Index.html" class="activo">blog</a></li>
-        <li><a href="../Contacto/Index.html" class="activo">contacto</a></li>
+        <li><a href="../Galeria/Index.html">galería</a></li>
+
+        <li class="submenu">
+          <a href="../Blog/Eventos/Index.html">blog</a>
+          <ul class="submenu-items">
+            <li><a href="../Blog/Eventos/Index.html">eventos</a></li>
+            <li><a href="../Blog/Novedades/Index.html">novedades</a></li>
+          </ul>
+        </li>
+
+        <li><a href="../Contacto/Index.html">contacto</a></li>
       </ul>
     </nav>
-    </header>
+  </header>
 
-    <footer>
-       <p>Pata de página</p>
-    </footer>
+  <main class="sobre-container">
+
+    <section class="sobre-header">
+      <h1>¿Quiénes Somos?</h1>
+      <p>Más de 20 años comprometidos con la calidad, la sostenibilidad y la innovación en el mundo de la madera.</p>
+    </section>
+
+    <section class="sobre-info">
+      <div class="sobre-texto">
+        <p>Madeco nació con la visión de transformar la manera en que se percibe y utiliza la madera en proyectos de construcción, diseño y mobiliario. Nuestra pasión por los recursos naturales y nuestro compromiso con el desarrollo sostenible nos han llevado a convertirnos en referentes del rubro.</p>
+        <p>Trabajamos de la mano con comunidades forestales, aplicamos tecnología en nuestros procesos y ofrecemos una gama de productos que combinan tradición y modernidad. Cada pieza de madera es seleccionada con rigurosidad para asegurar excelencia en cada entrega.</p>
+      </div>
+      <div class="sobre-img">
+        <img src="../Imagenes/MadecoEmpresa.webp" alt="Nuestro equipo o fábrica">
+      </div>
+    </section>
+
+    <section class="valores-section">
+      <h2 style="text-align:center; margin-bottom: 1.5rem;">Nuestra Esencia</h2>
+      <article class="valores-grid">
+        <div class="valor-card">
+          <h4>Misión</h4>
+          <p>Ofrecer productos de madera de excelencia, promoviendo el desarrollo sostenible y el respeto al medio ambiente.</p>
+        </div>
+
+        <div class="valor-card">
+          <h4>Visión</h4>
+          <p>Ser la empresa maderera líder en innovación, calidad y responsabilidad ambiental en la región y el país.</p>
+        </div>
+
+        <div class="valor-card">
+          <h4>Valores</h4>
+          <p>Compromiso, transparencia, innovación, trabajo en equipo y pasión por lo que hacemos.</p>
+        </div>
+      </article>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Madeco. Todos los derechos almorzados |📞 123123123 | ✉️ madeco@madeco.xd</p>
+    📍 Calle Fulanitos, 123, quinitos
+  </footer>
+
 </body>
 </html>

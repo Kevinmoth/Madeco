@@ -1,28 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <link rel="stylesheet" href="../../Estilo/Style.CSS">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eventos</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventos - Madeco</title>
+  <link rel="stylesheet" href="../../Estilo/StyleAndrea.css">
+  
 </head>
 <body>
-    <header>
-     <nav>
+
+  <header>
+    <div class="logo">
+      <img src="../../Imagenes/logo.png" alt="Madeco" width="140px" height="70px">
+    </div>
+    <nav>
       <ul>
-        <li><a href="../../index.html" class="activo">inicio</a></li>
-        <li><a href="../../Ventas/Productos/Index.html" class="activo">ventas</a></li>
-        <li><a href="../../SobreNosotros/Index.html" class="activo">sobre nosotros</a></li>
-        <li><a href="../../Galeria/Index.html" class="activo">galería</a></li>
-        <li><a href="Blog/Eventos/Index.html" class="activo">blog</a></li>
-        <li><a href="../../Contacto/Index.html" class="activo">contacto</a></li>
+        <li><a href="../../index.html">inicio</a></li>
+
+        <li class="submenu">
+          <a href="../../Ventas/Productos/Index.html">ventas</a>
+          <ul class="submenu-items">
+            <li><a href="../../Ventas/Productos/Index.html">productos</a></li>
+            <li><a href="../../Ventas/Servicios/Index.html">servicios</a></li>
+          </ul>
+        </li>
+
+        <li><a href="../../SobreNosotros/Index.html">sobre nosotros</a></li>
+        <li><a href="../../Galeria/Index.html">galería</a></li>
+
+        <li class="submenu">
+          <a href="../Eventos/Index.html" class="activo">blog</a>
+          <ul class="submenu-items">
+            <li><a href="../Eventos/Index.html" class="activo">eventos</a></li>
+            <li><a href="../Novedades/Index.html">novedades</a></li>
+          </ul>
+        </li>
+
+        <li><a href="../../Contacto/Index.html">contacto</a></li>
       </ul>
     </nav>
-    </header>
+  </header>
 
-    <footer>
-       <p>Pata de página</p>
-    </footer>
-    
+  <main class="eventos-section">
+    <h3>Eventos de Madeco</h3>
+    <h2 style="text-align: center;">Conectando con la comunidad y el sector maderero de Misiones</h2>
+    <section class="eventos-grid">
+
+      <article class="evento-card">
+        <img src="../../Imagenes/evento1.jpg" class="evento-img" alt="Nombre del evento">
+        <div class="evento-fecha">Marzo 2025</div>
+        <div class="evento-titulo">Feria Forestal Argentina</div>
+        <div class="evento-desc">Participamos en la exposición más grande de la industria maderera del país, mostrando nuestra línea premium.</div>
+        <div class="evento-lugar">Posadas, Misiones</div>
+      </article>
+
+      <article class="evento-card">
+        <img src="../../Imagenes/evento2.jpg" class="evento-img" alt="Nombre del evento">
+        <div class="evento-fecha">Abril 2025</div>
+        <div class="evento-titulo">Workshop de Carpintería</div>
+        <div class="evento-desc">Evento gratuito con talleres prácticos de uso de herramientas, selección y mantenimiento de maderas.</div>
+        <div class="evento-lugar">Taller Madeco, Oberá</div>
+      </article>
+
+      <article class="evento-card">
+        <img src="../../Imagenes/evento3.png" class="evento-img" alt="Nombre del evento">
+        <div class="evento-fecha">Junio 2025</div>
+        <div class="evento-titulo">Reforestando el Futuro</div>
+        <div class="evento-desc">Iniciativa ecológica con escuelas rurales para promover la plantación de especies nativas en la región.</div>
+        <div class="evento-lugar">Zona centro, Misiones</div>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Madeco. Todos los derechos almorzados |📞 123123123 | ✉️ madeco@madeco.xd</p>
+    📍 Calle Fulanitos, 123, quinotos
+  </footer>
+
 </body>
 </html>
